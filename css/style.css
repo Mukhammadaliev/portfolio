@@ -313,6 +313,7 @@ img {
   align-items: flex-end;
   color: #E5E5E5;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .project-title {
   margin: 0;
