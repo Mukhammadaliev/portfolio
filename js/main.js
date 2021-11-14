@@ -1,6 +1,12 @@
 const tl = gsap.timeline();
 const elBtn = document.querySelector('.menu-burger');
 const elNavbar = document.querySelector('.navbar')
+const elFooterText = document.querySelector('.footer-text')
+
+
+const year = new Date().getFullYear()
+
+elFooterText.textContent = `© ${year} All rights reserved.`
 
 
 tl.fromTo('.white-wrapper', {scaleX: 1}, {scaleX: 0, duration: 0.5})
